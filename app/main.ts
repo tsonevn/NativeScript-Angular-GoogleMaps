@@ -1,5 +1,6 @@
 // this import should be first in order to load some required settings (like globals and reflect-metadata)
-import {nativeScriptBootstrap} from "nativescript-angular/application";
+import { platformNativeScriptDynamic } from "nativescript-angular/platform";
 import {AppComponent} from "./app.component";
+import {AppModule} from "./app.module"
 
-nativeScriptBootstrap(AppComponent);
+platformNativeScriptDynamic().bootstrapModule(AppModule);
