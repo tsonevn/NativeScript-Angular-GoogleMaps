@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/NativeScript/template-hello-world-ng",
   "android": {
-    "v8Flags": "--expose_gc"
+    "v8Flags": "--expose_gc",
+    "markingMode": "none"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
